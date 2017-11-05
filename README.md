@@ -1,5 +1,9 @@
 # vagrant-dragonfly-rust: a Vagrant box for building Rust binaries for DragonFly BSD
 
+# VAGRANT CLOUD
+
+https://app.vagrantup.com/mcandre/boxes/vagrant-dragonfly-rust
+
 # EXAMPLE
 
 ```console
