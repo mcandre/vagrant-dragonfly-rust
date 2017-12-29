@@ -9,7 +9,6 @@ https://app.vagrantup.com/mcandre/boxes/vagrant-dragonfly-rust
 ```console
 $ vagrant up
 $ vagrant ssh -c "cd /vagrant && rustc hello.rs && ./hello"
-...
 Hello World!
 ```
 
@@ -21,5 +20,5 @@ Hello World!
 # EXPORT
 
 ```console
-$ vagrant package --output vagrant-dragonfly-rust.box
+$ vagrant destroy -f; vagrant up && vagrant package --output vagrant-dragonfly-rust.box
 ```
