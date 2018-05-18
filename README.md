@@ -1,5 +1,9 @@
 # vagrant-dragonfly-rust: a Vagrant box for building Rust binaries for DragonFly BSD
 
+# WARNING
+
+Rustup does not yet offer a port for DragonflyBSD, so Rust nightly is difficult to setup on these hosts.
+
 # VAGRANT CLOUD
 
 https://app.vagrantup.com/mcandre/boxes/vagrant-dragonfly-rust
